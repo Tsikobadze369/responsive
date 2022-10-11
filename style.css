@@ -43,6 +43,7 @@ h1 {
 div-img{
     max-width: 483px;
     width: 100%;
+    
 }
 .unsplash{
     width: 100%;
@@ -94,4 +95,81 @@ div-img{
     font-size: 18px;
     font-family: Archy EDT;
     margin-left: 300px;
+}
+.load-more{
+    font-size: 30px;
+    font-family: Archy EDT;
+    margin-top: 30px;
+    margin-left: 600px;
+    
+}
+.last-add{
+font-size: 40px;
+font-family: Archy EDT;
+font-weight: lighter;
+}
+.third-cont{
+    max-width: 1920px;
+    width: 100%;
+    margin: 50px auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    
+}
+.division{
+    max-width: 483px;
+    width: 100%;
+}
+.unsplash4{
+    width: 100%;
+}
+.title4{
+    font-size: 30px;
+    font-family: Archy EDT; 
+}
+.this-title4{
+    font-size: 17px;
+    font-family: Zapf Dingbats;
+    font-weight: lighter;
+}
+.more4{
+    font-size: 18px;
+    font-family: Archy EDT;
+    margin-left: 350px;
+}
+.unsplash5{
+    width: 100%;
+}
+.title5{
+    font-size: 30px;
+    font-family: Archy EDT; 
+}
+.this-title5{
+    font-size: 17px;
+    font-family: Zapf Dingbats;
+    font-weight: lighter;
+}
+.more5{
+    font-size: 18px;
+    font-family: Archy EDT;
+    margin-left: 340px;
+}
+.unsplash6{
+    width: 100%;
+}
+.title6{
+    font-size: 30px;
+    font-family: Archy EDT;  
+}
+.this-title6{
+    font-size: 17px;
+    font-family: Zapf Dingbats;
+    font-weight: lighter;
+}
+.more6{
+    font-size: 18px;
+    font-family: Archy EDT;
+    margin-left: 340px;
 }
