@@ -1,39 +1,97 @@
-.container{
+.container {
     max-width: 1920px;
     width: 100%;
     margin: 50px auto;
 }
-.header{
-    margin: 0;
-    padding: 0;
-    
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-nav{
-    width: 85%;
+nav {
+    width: 60%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-nav img{
-    width: 70px; 
+nav img {
+    width: 70px;
 }
-nav ul{
+nav ul {
     display: flex;
     list-style-type: none;
     gap: 53px;
-    font-size: 15px; 
+    font-size: 15px;
 }
-.search{
-   width: 100%;
+.search {
+    width: 25px;
+    height: 25px;
 }
-.slider{
-    margin: 50px auto;
+.slider {
     width: 100%;
 }
-
-
-
+h1 {
+    font: 40px;
+    font-family: Archy EDT;
+    font-weight: lighter;
+}
+.sec-container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 50px auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+div-img{
+    max-width: 483px;
+    width: 100%;
+}
+.unsplash{
+    width: 100%;
+}
+.title{
+    font-size: 30px;
+    font-family: Archy EDT;
+}
+.this-title{
+    font-size: 17px;
+    font-family: Zapf Dingbats;
+    font-weight: lighter;
+}
+.more{
+    font-size: 18px;
+    font-family: Archy EDT;
+    margin-left: 300px;
+}
+.unsplash2{
+    width: 100%;
+}
+.unsplash3{
+    width: 100%;
+}
+.title2{
+    font-size: 30px;
+    font-family: Archy EDT;  
+}
+.this-title2{
+    font-size: 17px;
+    font-family: Zapf Dingbats;
+    font-weight: lighter;
+}
+.more2{
+    font-size: 18px;
+    font-family: Archy EDT;
+    margin-left: 300px;
+}
+.title3{
+    font-size: 30px;
+    font-family: Archy EDT;
+}
+.this-title3{
+    font-size: 17px;
+    font-family: Zapf Dingbats;
+    font-weight: lighter;
+}
+.more3{
+    font-size: 18px;
+    font-family: Archy EDT;
+    margin-left: 300px;
+}
