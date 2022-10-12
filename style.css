@@ -10,6 +10,11 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
+.burger-menu{
+    width: 50px;
+    height: 50px;
+    display: none;
+}
 nav img {
     width: 70px;
 }
@@ -39,6 +44,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 div-img{
     max-width: 483px;
@@ -100,8 +106,7 @@ div-img{
     font-size: 30px;
     font-family: Archy EDT;
     margin-top: 30px;
-    margin-left: 600px;
-    
+    margin-left: 600px;    
 }
 .last-add{
 font-size: 40px;
@@ -116,6 +121,7 @@ font-weight: lighter;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+    flex-wrap: wrap;
     
 }
 .division{
@@ -180,10 +186,11 @@ footer{
     max-width: 1920px;
     width: 100%;
     background-color: #2E2E2E;
-    height: 207px;
+    
+    
 }
 footer img{
-    display: inline-block;
+    
     width: 70px;
     
 }
@@ -191,10 +198,16 @@ footer img{
     font-size: 20px;
     font-family: Archy EDT;
     color: white; 
+    animation-name: contact;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 .number{
     font-size: 13px;
     color: white;
+    animation-name: number;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 .mail{
     font-size: 13px;
@@ -213,4 +226,76 @@ font-family: Archy EDT;
 .icons img{
     width: 43px;
     padding: 10px;
+}
+@media (max-width: 480px){
+    nav{
+        display: none;
+    }
+    .burger-menu{
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin-bottom: 30px;
+    }
+}
+@media{
+    footer{
+        display: block;  
+    }
+}
+@media{
+    footer img{
+        width: 50px;
+        margin-left: 200px;
+        margin-top: 20px;
+    }
+}
+@media {
+    .contact 
+    {margin-left: 180px;}
+}
+@keyframes contact{
+   0% {font-size: 20px;}
+   25%{font-size: 25px; color: blue;}
+   75%{font-size: 30px; color: blueviolet;}
+   100%{font-size: 15px; color: chartreuse;}
+}
+@media {
+    .number{
+        margin-left: 150px;
+    }
+}
+@keyframes number{
+    0% {font-size: 20px;}
+   25%{font-size: 25px; color: blue;}
+   75%{font-size: 30px; color: blueviolet;}
+   100%{font-size: 15px; color: chartreuse;}
+}
+@media{
+    .mail{
+        margin-left: 180px;
+        color: darkorange;
+    }
+}
+@media{
+.address{
+margin-left: 180px;
+color: darkorange;
+}
+}
+@media{
+.tbilisi{
+    margin-left: 180px;
+    color: darkorange;
+}
+}
+@media{
+    .icons img{
+        width: 30px; 
+    }
+}
+@media{
+    .load-more{
+        display: none;
+    }
 }
